@@ -29,7 +29,7 @@ const Header = () => {
         <div className="container mx-auto flex justify-between items-center">
             {/* logo */}
             <a href='#' data-aos='fade-down' data-aos-delay='1000'>
-              <img src={logo} alt='' />
+              <img src={logo} alt='Description of the image' />
             </a>
             {/* nav - initially hidden - show on desktop mode */}
             <div className='hidden lg:flex'
