@@ -38,7 +38,9 @@ const Cards = () => {
                 {/* card subtitle */}
                 <p className='mb-6 text-light'>{subtitle}</p>
                 {/* arrow img */}
-                {index === cardIndex && <img src={ArrowImg} />}
+                {/* eslint-disable-next-line jsx-a11y/alt-text*/}
+                
+                {index === cardIndex && <img src={ArrowImg} alt="" />}
               </div>
 
             </div>
